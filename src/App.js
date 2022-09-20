@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { Atms } from './components/atms/Atms1';
 
 function App() {
+
+
+
+
   return (
     <div className="App">
+      <Atms></Atms>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
